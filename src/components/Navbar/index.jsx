@@ -20,6 +20,7 @@ const Navbar = () => {
       <nav className={style.navTabs}>
         {navTabs?.map((nav) => (
           <Link
+            key={nav.title}
             className={nav.current ? style.activeLink : style.link}
             href={nav.to}
           >
@@ -30,8 +31,10 @@ const Navbar = () => {
           <option selected disabled value="#">
             Programs
           </option>
-          {programs.map((program) => (
-            <option value={program}>{program}</option>
+          {programs.map((program, i) => (
+            <option key={i} value={program}>
+              {program}
+            </option>
           ))}
         </select>
       </nav>

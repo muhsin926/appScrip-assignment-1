@@ -23,7 +23,7 @@ export default function Home() {
         <Hero />
         <ElevateCraft />
         <JoinUs />
-        <Image src={pictures} className="pictures" />
+        <Image src={pictures} className="pictures"  alt="Pictures"/>
         <EarnNow />
         <LearnMore />
         <Footer />

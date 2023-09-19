@@ -8,8 +8,8 @@ import Button from "../Elements/Button";
 const LearnMore = () => {
   return (
     <div className={style.container}>
-      <Image height={432} width={400} className={style.img} src={image1} />
-      <Image height={432} width={390} className={style.img} src={image2} />
+      <Image height={432} width={400} className={style.img} src={image1} alt="left-image" />
+      <Image height={432} width={390} className={style.img} src={image2}  alt="right-image"/>
       <div className={style.circle1} />
       <div className={style.circle2} />
       <div className={style.circle3} />

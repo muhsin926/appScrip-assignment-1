@@ -10,7 +10,7 @@ import TextField from "../Elements/TextField";
 const Hero = () => {
   return (
     <section className={style.heroSection}>
-      <Image className={style.bgLayer} src={bgLayer} />
+      <Image className={style.bgLayer} src={bgLayer} alt="wave" />
       <div className={style.mainDiv}>
         <div className={style.textBox}>
           <h1>A Creator’s Paradise</h1>

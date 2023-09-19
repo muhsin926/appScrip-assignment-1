@@ -10,10 +10,10 @@ const ElevateCraft = () => {
     <section className={style.mainSection}>
       <h1 className={style.title}>Elevate Your Craft</h1>
       <div className={style.wrapper}>
-        {ELEVATE_CRAFT?.map(item => <MainCard item={item} /> )}
+        {ELEVATE_CRAFT?.map(item => <MainCard key={item.id} item={item} /> )}
       </div>
       <div className={style.miniContainer}>
-        {MINI_CARDS?.map(item => <MiniCard item={item} /> )}
+        {MINI_CARDS?.map(item => <MiniCard key={item.id} item={item} /> )}
       </div>
     </section>
   );
