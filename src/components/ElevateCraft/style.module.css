@@ -34,7 +34,6 @@
 }
 
 .itemBox p {
-    font-size: .8rem;
     text-align: center;
 }
 
@@ -110,17 +109,6 @@
     display: flex;
     align-items: center;
     gap: 3px;
-}
-
-.circle {
-    width: 60%;
-    height: 87%;
-    border-radius: 50%;
-    background: linear-gradient(91deg, rgba(109, 26, 243, 0.361) 0%, rgba(201, 38, 242, 0.366) 100%);
-    filter: blur(250px);
-    position: absolute;
-    bottom: -71px;
-    left: 23%;
 }
 
 .miniContainer{

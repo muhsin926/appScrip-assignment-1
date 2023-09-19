@@ -9,7 +9,7 @@ const MainCard = ({ item }) => {
     <div key={item.id} className={style.itemBox}>
       <h2>{item.title}</h2>
       <p>{item.description}</p>
-      <div className={style.circle} />
+      <div className='circle' />
       {item.singleImg ? (
         <div className={style.imageBox}>
           <Image src={item.images[0]} className={style.phoneImg} />

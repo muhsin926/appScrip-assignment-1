@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Roboto:wght@300;400;500;700&display=swap');
 
-:root{
+:root {
   --main-bg-color: #121212;
   --color: #CAC4D2;
   --text-color: #C2A9D9;
-  --pera-color: #BA94DF;
+  --pera-color: rgba(137, 117, 156, 0.70);
   --signUpBtn-bg-gradient: linear-gradient(91deg, #7526F2 0%, #C826F2 100%);
 }
 
@@ -24,22 +24,49 @@ body {
 
 }
 
-a{
+a {
   text-decoration: none;
   color: #FFF;
 }
 
-p{
+p {
   color: var(--pera-color);
+  line-height: 20px;
+  font-size: 14px;
+}
+h1{
+  text-align: center;
 }
 
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.input::placeholder{
+.input::placeholder {
   color: #FFFFFF;
+}
+
+.circle {
+  width: 60%;
+  height: 87%;
+  border-radius: 50%;
+  background: linear-gradient(91deg, rgba(109, 26, 243, 0.361) 0%, rgba(201, 38, 242, 0.366) 100%);
+  filter: blur(250px);
+  position: absolute;
+  bottom: -71px;
+  left: 23%;
+}
+
+.pictures {
+  height: 31rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.btn{
+  padding: 12px 70px;
+  background: var(--signUpBtn-bg-gradient);
 }

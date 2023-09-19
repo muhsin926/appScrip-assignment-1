@@ -8,7 +8,7 @@ const MiniCard = ({item}) => {
       <Image src={item.icon} className={style.iconStyle} />
       <h2>{item.title}</h2>
       <p>{item.text}</p>
-      <div className={style.circle} />
+      <div className='circle' />
     </div>
   );
 };

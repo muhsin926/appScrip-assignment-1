@@ -1,0 +1,33 @@
+.circle {
+    width: 43%;
+    height: 108%;
+    border-radius: 50%;
+    background: linear-gradient(91deg, rgba(116, 38, 242, 0.25) 0%, rgba(201, 38, 242, 0.2) 100%);
+    filter: blur(250px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+.textBox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.focusText{
+    background: -webkit-linear-gradient(91deg, #7526F2 0%, #C826F2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

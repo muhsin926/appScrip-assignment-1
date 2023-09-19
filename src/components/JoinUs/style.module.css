@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    height: 520px;
+}
+.circle {
+    width: 43%;
+    height: 108%;
+    border-radius: 50%;
+    background: linear-gradient(91deg, rgba(116, 38, 242, 0.25) 0%, rgba(201, 38, 242, 0.2) 100%);
+    filter: blur(250px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+
+.textBox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBox h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0 2rem 0;
+}
+
