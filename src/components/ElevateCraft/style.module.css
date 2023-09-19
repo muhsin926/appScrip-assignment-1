@@ -1,0 +1,118 @@
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 60px 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.itemBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #191919;
+    border-radius: 20px;
+    padding: 2rem;
+    min-width: 100%;
+    position: relative;
+}
+
+.itemBox p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.imageBox {
+    position: relative;
+}
+
+.phoneImg {
+    width: 300px;
+    height: 225px;
+}
+
+.dollarImg {
+    position: absolute;
+    top: 41px;
+    right: -63px;
+    width: 150px;
+    height: 130px;
+}
+
+.cardWrapper {
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #18111d;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardImage {
+    width: 122px;
+    height: 131px;
+}
+
+.cardContent {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.cardContent h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.priceDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceDiv h2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.priceDiv p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.circle {
+    width: 394px;
+    height: 360px;
+    border-radius: 50%;
+    background: linear-gradient(91deg, rgba(117, 38, 242, 0.30) 0%, rgba(200, 38, 242, 0.30) 100%);
+    filter: blur(250px);
+    position: absolute;
+    bottom: -71px;
+    left: 19%;
+}

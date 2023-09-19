@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import Button from "../Button";
 import style from "./style.module.css";
+import Button from "../Elements/Button";
 
 const navTabs = [
   { title: "Home", to: "#", current: true },
@@ -10,10 +10,12 @@ const navTabs = [
   { title: "Support", to: "#" },
   { title: "Affiliate", to: "#" },
 ];
+
+const programs = ['Agency', 'Ambassador', 'Partners']
 const Navbar = () => {
   return (
     <header className={style.header}>
-      <div className={style.logo}>Logo</div>
+      <div className={style.logo}>lOGO</div>
       <nav className={style.navTabs}>
         {navTabs?.map((nav) => (
           <Link
@@ -23,6 +25,12 @@ const Navbar = () => {
             {nav.title}
           </Link>
         ))}
+        <select className={style.selectDropdown} name="" id="" >
+            <option selected disabled value="#">Programs</option>
+            {programs.map((program) => (
+                <option value={program}>{program}</option>
+            ))}
+        </select>
       </nav>
       <div className={style.signBtn}>
         <Button className={style.loginBtn}>Login</Button>

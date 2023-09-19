@@ -2,7 +2,9 @@
 
 :root{
   --main-bg-color: #121212;
-  --color: #BA94DF;
+  --color: #CAC4D2;
+  --text-color: #C2A9D9;
+  --pera-color: #BA94DF;
   --signUpBtn-bg-gradient: linear-gradient(91deg, #7526F2 0%, #C826F2 100%);
 }
 
@@ -19,9 +21,25 @@ body {
   font-family: Roboto;
   background-color: var(--main-bg-color);
   color: var(--color);
+
 }
 
 a{
   text-decoration: none;
   color: #FFF;
+}
+
+p{
+  color: var(--pera-color);
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input::placeholder{
+  color: #FFFFFF;
 }
