@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import style from "./style.module.css";
 import Button from "../Elements/Button";
+import ToggleIcon from "@/assets/Icons/ToggleIcon";
 
 const navTabs = [
   { title: "Home", to: "#", current: true },
@@ -15,7 +16,7 @@ const programs = ['Agency', 'Ambassador', 'Partners']
 const Navbar = () => {
   return (
     <header className={style.header}>
-      <div className={style.logo}>lOGO</div>
+      <div className='logo'>lOGO</div>
       <nav className={style.navTabs}>
         {navTabs?.map((nav) => (
           <Link
@@ -33,6 +34,7 @@ const Navbar = () => {
         </select>
       </nav>
       <div className={style.signBtn}>
+        <div className={style.toggle}><ToggleIcon/></div>
         <Button className={style.loginBtn}>Login</Button>
         <Button className={style.signUp}>Sign Up</Button>
       </div>

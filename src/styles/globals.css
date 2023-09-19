@@ -70,3 +70,19 @@ h1{
   padding: 12px 70px;
   background: var(--signUpBtn-bg-gradient);
 }
+
+.logo {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Raleway;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .pictures{
+    height: 15rem;
+  }
+}

@@ -3,9 +3,9 @@ import bikiniParis from "../assets/Images/bikini paris.png";
 import blueBikini from "../assets/Images/blue bikini.png";
 import phone from "../assets/Images/phone.png";
 import dollar from "../assets/Images/dollar.png";
-import automation from '../assets/Images/automation.png'
-import community from '../assets/Images/community.png'
-import prize  from '../assets/Images/prize.png'
+import automation from "../assets/Images/automation.png";
+import community from "../assets/Images/community.png";
+import prize from "../assets/Images/prize.png";
 
 export const ELEVATE_CRAFT = [
   {
@@ -75,5 +75,26 @@ export const MINI_CARDS = [
     icon: prize,
     title: "SUnlock Exclusive Opportunities and Prizes",
     text: "Enjoy ABC contests and challenges for valuable prizes. Showcase your exceptional talent and win business grants, scholarships, and more. Thrive on our platform with recognition and rewards.",
+  },
+];
+
+export const FOOTER_CONTENT = [
+  {
+    title: "Company",
+    content: ["About Us", "Support", "Blog", "Login", "Signup", "Contact Us"],
+  },
+  {
+    title: "Programs",
+    content: ["Affiliate Program", "Ambassador Program", "Partnership Program"],
+  },
+  {
+    title: "Policy",
+    content: [
+      "Legal",
+      "DMCA",
+      "USC 2257",
+      "Privacy Policy",
+      "Terms and Conditions",
+    ],
   },
 ];

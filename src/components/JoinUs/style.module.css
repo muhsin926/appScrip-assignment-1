@@ -33,6 +33,9 @@
     justify-content: center;
     align-items: center;
 }
+.textBox p{
+    text-align: center;
+}
 
 .textBox h1{
     font-size: 50px;
@@ -41,3 +44,12 @@
     margin: 5px 0 2rem 0;
 }
 
+@media (max-width: 768px) {
+    .textBox h1{
+        font-size: 20px;
+    }
+    .img {
+        width: 100%;
+        height: 250px;
+    }
+}

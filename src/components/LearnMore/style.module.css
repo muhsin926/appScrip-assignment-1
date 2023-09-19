@@ -1,3 +1,49 @@
 .container{
-    
+    position: relative;
+    height: 26rem;
+    margin: 0 70px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F1D23;
+}
+.img{
+    border-radius: 1rem;
+    mix-blend-mode: saturation;
+}
+.textBox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.textBox p{
+    text-align: center;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.70);
+}
+.textBox h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin: 0 20px;
+    }
+    .textBox{
+        width: 95%;
+    }
+}
+@media (max-width: 500px) {
+    .textBox h1{
+        font-size: 1.5rem;
+    }
 }
