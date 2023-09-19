@@ -23,16 +23,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.3rem;
     background-color: #191919;
     border-radius: 20px;
     padding: 2rem;
     min-width: 100%;
     position: relative;
+    margin-bottom: 2rem;
+    overflow: hidden;
 }
 
 .itemBox p {
-    font-size: 1rem;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.itemBox h2{
     text-align: center;
 }
 
@@ -107,12 +113,22 @@
 }
 
 .circle {
-    width: 394px;
-    height: 360px;
+    width: 60%;
+    height: 87%;
     border-radius: 50%;
-    background: linear-gradient(91deg, rgba(117, 38, 242, 0.30) 0%, rgba(200, 38, 242, 0.30) 100%);
+    background: linear-gradient(91deg, rgba(109, 26, 243, 0.361) 0%, rgba(201, 38, 242, 0.366) 100%);
     filter: blur(250px);
     position: absolute;
     bottom: -71px;
-    left: 19%;
+    left: 23%;
+}
+
+.miniContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.iconStyle{
+    height: 5rem;
+    width: 5rem;
 }

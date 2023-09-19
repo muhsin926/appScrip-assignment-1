@@ -1,10 +1,13 @@
 import greenBikini from "../assets/Images/green bikini.png";
 import bikiniParis from "../assets/Images/bikini paris.png";
 import blueBikini from "../assets/Images/blue bikini.png";
-import phone from '../assets/Images/phone.png';
-import dollar from '../assets/Images/dollar.png';
+import phone from "../assets/Images/phone.png";
+import dollar from "../assets/Images/dollar.png";
+import automation from '../assets/Images/automation.png'
+import community from '../assets/Images/community.png'
+import prize  from '../assets/Images/prize.png'
 
-export const elevateCraft = [
+export const ELEVATE_CRAFT = [
   {
     id: 1,
     title: "Unlock Your ABC Earning Potential",
@@ -17,7 +20,7 @@ export const elevateCraft = [
     id: 2,
     title: "Boost Your Sales with Built-in E-commerce",
     description:
-    "Take control of your brand and boost your sales with ABC's built-in e-commerce functionality. Showcase and sell your exclusive products, whether it's merchandise, digital downloads, or personalized experiences. Integrate your store effortlessly and turn your creative ideas into profitable ventures.",
+      "Take control of your brand and boost your sales with ABC's built-in e-commerce functionality. Showcase and sell your exclusive products, whether it's merchandise, digital downloads, or personalized experiences. Integrate your store effortlessly and turn your creative ideas into profitable ventures.",
     singleImg: false,
     cards: [
       {
@@ -55,7 +58,22 @@ export const elevateCraft = [
 ];
 
 export const MINI_CARDS = [
-    {
-        
-    }
-]
+  {
+    id: 1,
+    icon: automation,
+    title: "Save Time with Automation and Efficiency",
+    text: "Supercharge your content creation with ABC's automation tools. Streamline scheduling, multi-platform management, and more. Save time on repetitive tasks, focus on exceptional content.",
+  },
+  {
+    id: 2,
+    icon: community,
+    title: "Join a Supportive Community",
+    text: "Join ABC's vibrant creator community. Connect with like-minded individuals, collaborate, and share experiences. Access mental health services and resources for personal and professional growth.",
+  },
+  {
+    id: 1,
+    icon: prize,
+    title: "SUnlock Exclusive Opportunities and Prizes",
+    text: "Enjoy ABC contests and challenges for valuable prizes. Showcase your exceptional talent and win business grants, scholarships, and more. Thrive on our platform with recognition and rewards.",
+  },
+];
