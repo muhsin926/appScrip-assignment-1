@@ -21,7 +21,7 @@ const MainCard = ({ item }) => {
             <Image src={dummyImage} className={style.cardImage} alt="Dummy-Image" />
           </div>
           {item?.cards.map((card) => (
-            <div className={style.card}>
+            <div key={card.name} className={style.card}>
               <Image src={card.image} className={style.cardImage} alt={card.name} />
               <div className={style.cardContent}>
                 <h5>{card.name}</h5>

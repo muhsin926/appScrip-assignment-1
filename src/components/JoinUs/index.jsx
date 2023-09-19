@@ -12,7 +12,7 @@ const JoinUs = () => {
       <Image className={style.img} src={bubblesRight} alt="Bubbles-right"/>
       <div className={style.circle} />
       <div className={style.textBox}>
-        <p>Don't miss out on ABC’s Incredible features and Opportunities.</p>
+        <p>Don't miss out on ABC's Incredible features and Opportunities.</p>
         <h1>Join us today and unlock your <br/> full potential as a creator</h1>
         <Button className='btn'>Join Now</Button>
       </div>
