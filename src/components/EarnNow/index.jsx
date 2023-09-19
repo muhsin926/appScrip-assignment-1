@@ -4,7 +4,10 @@ import Button from "../Elements/Button";
 
 const EarnNow = () => {
   return (
-    <section style={{position: 'relative', height: '35rem'}}>
+    <section style={{position: 'relative', height: '35rem', overflow: 'hidden'}}>
+      <div className={style.planet} style={{width: '68%', height: '160%'}}/>
+      <div className={style.planet} style={{width: '78%', height: '170%'}}/>
+      <div className={style.planet} style={{width: '88%', height: '180%'}}/>
       <div className={style.circle} />
       <div className={style.textBox}>
         <h1>Ready to Cash in Your Connections? <br/> Join Our Affiliate Program</h1>

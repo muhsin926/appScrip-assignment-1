@@ -6,6 +6,7 @@
   --text-color: #C2A9D9;
   --pera-color: rgba(137, 117, 156, 0.70);
   --signUpBtn-bg-gradient: linear-gradient(91deg, #7526F2 0%, #C826F2 100%);
+  --reverse-signUpBtn-bg-gradient: linear-gradient(91deg, #C826F2 0%, #7526F2 100%);
 }
 
 * {
@@ -34,7 +35,8 @@ p {
   line-height: 20px;
   font-size: 14px;
 }
-h1{
+
+h1 {
   text-align: center;
 }
 
@@ -66,7 +68,7 @@ h1{
   width: 100%;
 }
 
-.btn{
+.btn {
   padding: 12px 70px;
   background: var(--signUpBtn-bg-gradient);
 }
@@ -82,7 +84,7 @@ h1{
 }
 
 @media (max-width: 768px) {
-  .pictures{
+  .pictures {
     height: 15rem;
   }
 }

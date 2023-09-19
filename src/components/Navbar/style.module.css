@@ -20,6 +20,13 @@
     cursor: pointer;
 }
 
+.link:hover {
+    background: -webkit-linear-gradient(91deg, #7526F2 0%, #C826F2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
 .signBtn {
     display: flex;
     justify-content: end;
@@ -37,6 +44,11 @@
 .signUp {
     padding: 12px 25px;
     background: var(--signUpBtn-bg-gradient);
+    transition: 1s;
+}
+
+.signUp:hover {
+    background: var(--reverse-signUpBtn-bg-gradient);
 }
 
 .activeLink {
@@ -51,24 +63,34 @@
     background: none;
     color: #C6C6C6;
 }
-.toggle{
+
+.selectDropdown:hover {
+    background: -webkit-linear-gradient(91deg, #7526F2 0%, #C826F2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.toggle {
     display: none;
 }
 
 @media (max-width: 1200px) {
-    .navTabs{
+    .navTabs {
         display: none;
     }
-    .toggle{
+
+    .toggle {
         display: block;
     }
-    .signBtn{
+
+    .signBtn {
         display: none;
     }
 }
 
 @media (max-width: 650px) {
-    .header{
+    .header {
         padding: 15px 35px;
     }
 }

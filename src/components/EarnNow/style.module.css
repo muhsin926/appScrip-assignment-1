@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    z-index: 2;
+    z-index: 4;
 }
 
 .textBox{
@@ -36,7 +36,19 @@
     font-size: 1.5rem;
     font-weight: 700;
 }
+ .planet{
+    width: 68%;
+    height: 150%;
+    border-radius: 50%;
+    border: 1px solid rgba(40, 35, 78, 0.467);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
 
-/* @media (max-width: 768px) {
-    .
-} */
+ @media (max-width: 1024px) {
+    .planet{
+        display: none;
+    }
+ }

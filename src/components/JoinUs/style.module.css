@@ -9,6 +9,7 @@
     width: 100%;
     height: 520px;
 }
+
 .circle {
     width: 43%;
     height: 108%;
@@ -22,7 +23,7 @@
     z-index: 2;
 }
 
-.textBox{
+.textBox {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -34,11 +35,12 @@
     align-items: center;
     width: 95%;
 }
-.textBox p{
+
+.textBox p {
     text-align: center;
 }
 
-.textBox h1{
+.textBox h1 {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -46,9 +48,10 @@
 }
 
 @media (max-width: 768px) {
-    .textBox h1{
+    .textBox h1 {
         font-size: 20px;
     }
+
     .img {
         width: 100%;
         height: 250px;

@@ -131,13 +131,16 @@
     .textBox {
         justify-self: center;
     }
+
     .signUpBox {
         justify-self: center;
         max-width: 100%;
     }
+
     .mainDiv {
         margin: 0;
     }
+
     .textBox p {
         text-align: center;
     }
@@ -147,9 +150,11 @@
     .textBox h1 {
         font-size: 2rem;
     }
+
     .textBox p {
         font-size: 1rem;
     }
+
     .signUpBox {
         padding: 1rem;
     }
