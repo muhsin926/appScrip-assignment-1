@@ -10,6 +10,10 @@ const LearnMore = () => {
     <div className={style.container}>
       <Image height={432} width={400} className={style.img} src={image1} />
       <Image height={432} width={390} className={style.img} src={image2} />
+      <div className={style.circle1}/>
+      <div className={style.circle2}/>
+      <div className={style.circle3}/>
+      <div className={style.circle4}/>
       <div className={style.textBox}>
         <h1>Join the ABC Community</h1>
         <p>
