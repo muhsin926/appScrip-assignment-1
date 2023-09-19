@@ -31,7 +31,8 @@
     font-weight: 400;
     color: var(--text-color);
 }
-.mainDiv{
+
+.mainDiv {
     position: absolute;
     top: 7%;
     display: grid;
@@ -39,6 +40,7 @@
     gap: 1rem;
     margin: 0 70px;
 }
+
 .signUpBox {
     padding: 35px;
     border: 1px solid #7526F2;
@@ -81,44 +83,74 @@
     gap: 20px;
 }
 
-.dropdown{
+.dropdown {
     background: none;
     border: none;
     color: #8971A0;
 }
 
-.signUpAsUser{
+.signUpAsUser {
     width: 100%;
     padding: 1rem;
     background: linear-gradient(91deg, #7426F2 0.18%, rgba(152, 88, 255, 0.97) 99.67%);
 }
 
-.pera{
+.pera {
     color: #8971A0;
     font-size: 12px;
     line-height: 16px;
 }
 
-.ORhr{
+.ORhr {
     border: none;
     height: 1px;
-    background: #2D2D2D; 
+    background: #2D2D2D;
     text-align: center;
-    
+
 }
-.ORhr::after{
+
+.ORhr::after {
     content: 'OR';
     padding: 0 1rem;
 }
 
-.signUpAsCreator{
+.signUpAsCreator {
     width: 100%;
     padding: 1rem;
     background: var(--signUpBtn-bg-gradient);
 }
 
 @media (max-width: 1250px) {
-    .mainDiv{
+    .mainDiv {
         grid-template-columns: 1fr;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .textBox {
+        justify-self: center;
+    }
+    .signUpBox {
+        justify-self: center;
+        max-width: 100%;
+    }
+    .mainDiv {
+        margin: 0;
+    }
+    .textBox p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .textBox h1 {
+        font-size: 2rem;
+    }
+    .textBox p {
+        font-size: 1rem;
+    }
+    .signUpBox {
+        padding: 1rem;
     }
 }

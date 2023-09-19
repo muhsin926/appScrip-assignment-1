@@ -27,12 +27,12 @@ const Hero = () => {
               <TextField
                 type={"text"}
                 placeholder={"First Name*"}
-                style={{ width: "10rem" }}
+                style={{ width: "48.5%" }}
               />
               <TextField
                 type={"text"}
                 placeholder={"Last Name*"}
-                style={{ width: "10rem" }}
+                style={{ width: "48.5%" }}
               />
             </div>
             <TextField

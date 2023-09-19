@@ -30,3 +30,21 @@
     font-size: 16px;
     color: #C6C6C6;
 }
+
+@media (max-width: 768px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .logo{
+        display: none;
+    }
+    .container div{
+        justify-self: center;
+    }
+    .container p{
+        text-align: center;
+    }
+    .container h3{
+        text-align: center;
+    }
+}
